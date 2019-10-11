@@ -2,6 +2,8 @@
 
 class Dog 
   
+  attr_accessor :name
+  
   @@all = [ ]
   
   def initialize(name)
@@ -17,5 +19,4 @@ class Dog
     @@all.clear
   end
 
-  
 end
